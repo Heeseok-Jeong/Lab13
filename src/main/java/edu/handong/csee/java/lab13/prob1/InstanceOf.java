@@ -5,7 +5,7 @@ public class InstanceOf {
 		if(friend instanceof ClassFriend)
 			((ClassFriend) friend).classFriend();
 		else if(friend instanceof SchoolFriend)
-			((SchoolFriend) friend.schoolFriend();
+			((SchoolFriend) friend).schoolFriend();
 		else
 			friend.justFriend();
 	}

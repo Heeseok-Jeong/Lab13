@@ -4,7 +4,7 @@ import java.util.Scanner; //import a package to use Scanner
 public class Main { //the class Main
 	
 	public static void main(String[] args) { //the main method
-		double n1, n2; //field variable n1 and n2
+		double n1, n2; //local variable n1 and n2
 		Scanner keyboard = new Scanner(System.in); //instantiate Scanner class to get value from user
 
 		System.out.print("Enter radius : "); //print some message to get radius

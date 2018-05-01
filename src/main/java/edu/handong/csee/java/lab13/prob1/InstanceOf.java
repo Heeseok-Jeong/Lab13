@@ -6,7 +6,7 @@ public class InstanceOf { //the class InstaceOf
 			((ClassFriend) friend).printClassFriend(); //casts a Friend type friend to ClassFriend and calls it's method
 		else if(friend instanceof SchoolFriend) //or friend is subclass of SchoolFriend
 			((SchoolFriend) friend).printSchoolFriend(); //casts a Friend type friend to SchoolFriend and calls it's method
-		else //or
+		else //or not
 			friend.printJustFriend(); //calls Friend class's method
 	}
 }

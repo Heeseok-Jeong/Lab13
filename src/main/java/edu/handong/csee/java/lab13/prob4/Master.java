@@ -8,7 +8,7 @@ public class Master { //the class Master
 	}
 	
 	public static void main(String[] args) { //the main method
-		String catName, dogName; //filed variables
+		String catName, dogName; //local variables
 		
 		Master master = new Master(); //instantiate this class
 		Cat cat = new Cat(); //instantiate Cat class

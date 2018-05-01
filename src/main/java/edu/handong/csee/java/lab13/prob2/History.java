@@ -1,5 +1,18 @@
 package edu.handong.csee.java.lab13.prob2;
 
-public class History {
+public class History extends Book{
+	private String author;
+	
+	public History(String name, String author) {
+		super(name);
+		this.author = author;	
+	}
+	
+	public String useString() {
+		return super.useString() + "\n\tAuthor : " + author;
+	}
 
+	public void show() {
+		System.out.println("<<<History>>>\n\t" + this.useString());
+	}
 }

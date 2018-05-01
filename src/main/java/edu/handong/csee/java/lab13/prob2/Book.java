@@ -12,7 +12,7 @@ public class Book {
 	}
 	
 	public String useString() {
-		return "\n\tId : " + id + "\n\tBook Name : " + bookName;
+		return "Id : " + id + "\n\tBook Name : " + bookName;
 	}
 	
 	public void show() {

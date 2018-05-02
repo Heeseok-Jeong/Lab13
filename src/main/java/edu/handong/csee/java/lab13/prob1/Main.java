@@ -7,9 +7,9 @@ public class Main { //the class Main
 		SchoolFriend friend2 = new SchoolFriend(); //instantiate SchoolFriend
 		ClassFriend friend3 = new ClassFriend(); //instantiate ClassFriend
 		
-		InstanceOf.whatFriend(friend1); //call a method of InstanceOf class
-		InstanceOf.whatFriend(friend2); //call a method of InstanceOf class
-		InstanceOf.whatFriend(friend3); //call a method of InstanceOf class
+		InstanceOf.whatFriend(friend1); //call a method of InstanceOf class to print
+		InstanceOf.whatFriend(friend2); //call a method of InstanceOf class to print
+		InstanceOf.whatFriend(friend3); //call a method of InstanceOf class to print
 	} 
 
 }

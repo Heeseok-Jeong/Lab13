@@ -8,11 +8,11 @@ public class Rectangle extends Shape{ //the class Rectangle which is subclass of
 		this.width = width; //instance variable width value is parameter width value
 	}
 	
-	public double area() { //the method area returns double value
+	public double makeArea() { //the method makeArea returns double value
 		return length * width; //returns length*width, area
 	}
 	
-	public double perimeter() { //the method perimeter returns double value
+	public double makePerimeter() { //the method makePerimeter returns double value
 		return 2 * (length + width); //returns 2*l*w, perimeter
 	}
 	

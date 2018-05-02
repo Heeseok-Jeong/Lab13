@@ -7,11 +7,11 @@ public class Circle extends Shape{ //the class Circle which is subclass of Shape
 		this.radius = r; //instance variable radius vales is r
 	}
 	
-	public double area() { //the method area returns double value
+	public double makeArea() { //the method makeArea returns double value
 		return Math.PI * Math.pow(radius,  2); //returns pi*r^2, area
 	}
 	
-	public double perimeter() { //the method perimeter returns double value
+	public double makePerimeter() { //the method makePerimeter returns double value
 		return 2 * Math.PI * radius; //returns 2*pi*r, perimeter
 	}
 	

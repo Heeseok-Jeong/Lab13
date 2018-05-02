@@ -4,7 +4,7 @@ import java.util.Scanner; //import a package to use Scanner
 
 public class Master { //the class Master
 	public void feed(Pet pet) { //this method has parameter Pet type
-		System.out.println("feed : " + pet.food()); //print about pet's food
+		System.out.println("feed : " + pet.returnFood()); //print about pet's food
 	}
 	
 	public static void main(String[] args) { //the main method
